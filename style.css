@@ -1,0 +1,73 @@
+body {
+    background-color: #0f0f0f; /* Bilkul dark gaming background */
+    color: #ffffff;            /* Standard white text */
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 100px;        /* Navbar ke liye thori jagah chori hai */
+    margin: 0;
+}
+h1 {
+    color: #00d2ff !important; /* Yeh browser ko majboor karega color change karne par */
+    font-size: 45px !important;
+    text-shadow: 0px 0px 15px rgba(0, 210, 255, 0.7) !important;
+}
+
+p {
+    color: #ffffff !important; /* Safaid rang */
+    font-size: 20px !important;
+}
+
+strong {
+    color: #ff4757;           /* "US" ko red karne ke liye taake tawajjo jaye */
+}
+    
+
+h1 {
+    color: #2c3e50;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+img {
+    width: 250px;           /* Isse logo ka size chota ho jayega */
+    height: auto;           /* Ratio barkarar rahega */
+    border-radius: 20px;    /* Kinare thore round karne ke liye */
+    margin-top: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* Thora professional shadow */
+}
+.navbar {
+    background-color: #222;
+    padding: 2px;
+    position: fixed;
+    bottom: 0; /* Isse buttons hamesha screen ke niche rahenge */
+    left: 0;
+    width: 100%;
+    border-top: 2px solid #00d2ff; /* Ek patli blue line top par */
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar li {
+    display: inline; /* Links ko ek hi line mein lane ke liye */
+    margin: 0 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: #00d2ff; /* Mouse le jane par rang badlega */
+}
